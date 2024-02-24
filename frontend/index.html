@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Scrapping Amazon Products</title>
+  </head>
+  <body>
+    <form id="searchForm">
+      <label for="keyword">Keyword:</label>
+      <input required type="text" id="keyword" name="keyword" placeholder="Enter keyword">
+      <button type="submit" class="button-filter">Search</button>
+    </form>
+  
+    <table id="productTable">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Rating</th>
+          <th>Reviews</th>
+          <th>Image</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Product data will be dynamically added here -->
+      </tbody>
+    </table>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
